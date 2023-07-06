@@ -1,8 +1,27 @@
+import { useState } from "react";
 import { MdClose } from "react-icons/md";
+
 const EditURL = () => {
-  const linkHistory = JSON.parse(localStorage.getItem("linkHistory"));
+  const [linkHistory, setLinkHistory] = useState(
+    JSON.parse(localStorage.getItem("linkHistory")) || []
+  );
+
+  const handleRemove = (index) => {
+    // Create a copy of the linkHistory array
+    const updatedLinkHistory = [...linkHistory];
+
+    // Remove the item at the specified index
+    updatedLinkHistory.splice(index, 1);
+
+    // Update the linkHistory in state
+    setLinkHistory(updatedLinkHistory);
+
+    // Update the linkHistory in localStorage
+    localStorage.setItem("linkHistory", JSON.stringify(updatedLinkHistory));
+  };
+
   return (
-    <div className="bg-white  border-x border-b -mt-2 py-4 px-8 w-full">
+    <div className="bg-white border-x border-b -mt-2 py-4 px-8 w-full">
       <h2 className="font-semibold text-3xl text-gray-700 text-center my-5">
         Edit URL
       </h2>
@@ -20,7 +39,11 @@ const EditURL = () => {
                 >
                   {link.shortURL}
                 </a>
-                <MdClose size={24} color="#FF1F1F" />
+                <MdClose
+                  size={24}
+                  color="#FF1F1F"
+                  onClick={() => handleRemove(index)}
+                />
               </span>
             </p>
           </div>
