@@ -28,8 +28,6 @@ As a junior MERN developer, I am enthusiastic and eager to learn and grow in the
 
 ## Projects
 
-<hr>
-
 ### Dance School – Summer Camp School
 
 - Live Link: [Live Link](https://dance-school-6fa61.web.app/)
@@ -64,8 +62,6 @@ As a junior MERN developer, I am enthusiastic and eager to learn and grow in the
   - Toy's Showcase and CRUD Operation
   - Secure Sign-In/Sign-Up Process
 
-<hr>
-
 ## Experience
 
 ### Junior Executive-IT
@@ -87,8 +83,6 @@ As a junior MERN developer, I am enthusiastic and eager to learn and grow in the
 - Duties/Responsibilities:
   - Data Analyst
   - Data Entry
-
-<hr>
 
 ## Academic Qualification
 
@@ -114,8 +108,6 @@ As a junior MERN developer, I am enthusiastic and eager to learn and grow in the
 - GPA: 3.89 Out of 5
 - Year: 2013-2015
 
-<hr>
-
 ## Training Summary
 
 - COMPLETE WEB DEVELOPMENT WITH PROGRAMMING HERO
@@ -123,8 +115,6 @@ As a junior MERN developer, I am enthusiastic and eager to learn and grow in the
 - Credential ID: WEB7-1440
 - Technologies: JavaScript, React, Node.js, Express.js, MongoDB
 - Dates: January 1, 2023 - June 30, 2023
-
-<hr>
 
 ## About Me
 
@@ -137,7 +127,7 @@ As a junior MERN developer, I am enthusiastic and eager to learn and grow in the
 - National ID No: 19993218260109885
 - Religion: Islam
 - Permanent Address: Patillakura, Boro-Jamalpur, Sadullapur, Gaibandha-5710
-- Current Location: Dhaka 1230
+- Current Location: Sector-12, Uttara, Dhaka 1230
 
 ## Language Proficiency
 
@@ -146,7 +136,7 @@ As a junior MERN developer, I am enthusiastic and eager to learn and grow in the
 
 ## Interest & Hobbies
 
-- Travelling
+- Traveling
 - Photography
 - Gardening
 - Practice by building small projects
