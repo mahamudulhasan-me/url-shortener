@@ -14,12 +14,14 @@ const GenerateURL = () => {
     }
   }, []);
 
+  // update latest link in link history
   const updateLinkHistory = (newLink) => {
     const updatedHistory = [...linkHistory, newLink];
     setLinkHistory(updatedHistory);
     localStorage.setItem("linkHistory", JSON.stringify(updatedHistory));
   };
 
+  // shorten url operation
   const shortenLink = () => {
     if (longURL) {
       const uniqueId = shortid.generate();
